@@ -52,9 +52,7 @@ body {
 }
 
 .of-faqs .qus {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   width: 300px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -74,7 +72,10 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  position: absolute;
   cursor: pointer;
+  right: 5px;
+  top: 20px;
 }
 
 .a {

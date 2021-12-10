@@ -1,8 +1,10 @@
-const arrows = document.querySelectorAll('.arrow');
-const ans = document.querySelectorAll('.a')
+// variables
+const qus = document.querySelectorAll('.qus')
+const ans = document.querySelector('.a')
+const arrows = document.querySelectorAll('.arrow')
 
-for(let a of ans){
-    a.addEventListener('click',function(){
-        console.log('asdasd');
+for (const arrow of arrows) {
+    arrow.addEventListener('click',function(){
+        arrow.previousElementSibling.classList.toggle('hidden')
     })
 }
